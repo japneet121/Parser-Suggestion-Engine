@@ -1,26 +1,15 @@
-# contact-form-python-flask
-Contact form and send mail with Python e Flask
-
-### Skills
-
-* Python
-* Flask
-* HTML
-* CSS
-* Bootstrap
+# Parser Suggestion Engine
+The Engine reads the previous parsers and learns all the field types, factors and parser keys and gives suggestions for a new parser on th basis of the past acquired knowledge.
 
 
 ```shell
 pip3 install Flask
 pip3 install Flask-WTF
-pip3 install Flask-Mail
 
-cd /contact-form-python-flask
+cd /Parser-Suggestion-Engine
 
 python3 app.py flask run
 
 #run localhost:5000
 
 ```
-
-http://gilcierweb.com.br
