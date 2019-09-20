@@ -1,0 +1,23 @@
+{% extends "application.html" %}
+
+{% block content %}
+
+<h1>Parsing Suggestions</h2>
+    <hr>
+    <br>
+    <br>
+
+ <h3>Old Parsers With Matching Keys</h3><br>
+ <h6>{{parsers}}</h6>  <br><br>
+<h3>Possible Field Types</h3><br>
+<table>
+        {% autoescape false %}
+         {{fields}}
+        {% endautoescape %}
+</table>
+<br><br>
+<h3>Possible Factors</h3><br>
+    {% autoescape false %}
+         {{factors}}
+    {% endautoescape %}
+{% endblock %}
